@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>品牌-网页点评</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="关键字">
+    <meta name="description" content="主要内容">
+    <meta name="copyright" content="版权">
+    <link rel="stylesheet" href="../../public/css/base.css">
+    <link rel="stylesheet" href="../../public/css/brands.css">
+    <script src="../../public/js/jquery.1.8.0.js"></script>
+    <script src="../../public/js/jquery.SuperSlide.2.1.1.js"></script>
+    <!--[if lt IE 9]>
+        <script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- start: header -->
+    @@include('../common/header.html')
+    <!-- end: header -->
+    <!--start: 项目 top name  -->
+    @@include('../common/xiangmuName.html')
+    <!--end: 项目 top name  -->
+    <!-- start: 品牌-品牌问答  -->
+    <div class="ISSUE W">
+       
+            <div class="issueLeft">
+                
+                <div class="CommonWrap">
+                    <h3 class="CommonBtH3">项目介绍</h3>
+                    <a href="#" class="CommonBtA">查看跟多项目资料&gt;</a>
+
+                </div>
+                <div class="wdwrap">
+                    <p><span>问</span>问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题</p>
+                    <p><span style="background: #80ad1f">答</span>问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题</p>
+                    <div><em>2017-01-11 11：15：30：</em><a href="#">标签标签标签</a></div>
+                </div>
+                <div class="issueShow">
+                    <div class="issueShowBtn">
+                        <input type="text" placeholder="没有找到我想要的，我要提问&gt;">
+                        <a href="#">我要提问</a>
+                    </div>
+                    <ul>
+                        <li><a href="#"><span>问</span><p>问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题</p><div><em>未回答</em><i>2018-04-01</i></div></a></li>
+                        
+                        @@for(var i =0;i<8;i++){
+                                                <li><a href="#"><span>问</span><p>问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题</p><div><em>未回答</em><i>2018-04-01</i></div></a></li>
+                        }
+                        
+                        
+                        
+                        
+                    </ul>
+                    <div id="PAGE">
+                        <a href="#" class="onC">上一页</a>
+                        <a href="#">1</a>
+                        <a href="#" class="on">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">下一页</a>
+                    </div>
+                </div>
+                
+                <!-- start:留言板-->
+                @@include('../common/message.html')
+                <!-- end: 留言板-->
+            </div>
+            @@include('../common/rightDynamic.html')
+
+        </div>
+    </div>
+    <!-- end: 品牌-品牌咨询  -->
+    <!-- start : footer -->
+    @@include('../common/footer.html')
+    <!-- end:footer -->
+
+</body>
+
+</html>

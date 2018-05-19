@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>品牌-网页点评</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="关键字">
+    <meta name="description" content="主要内容">
+    <meta name="copyright" content="版权">
+    <link rel="stylesheet" href="../../public/css/base.css">
+    <link rel="stylesheet" href="../../public/css/brands.css">
+    <script src="../../public/js/jquery.1.8.0.js"></script>
+    <script src="../../public/js/jquery.SuperSlide.2.1.1.js"></script>
+    <!--[if lt IE 9]>
+        <script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- start: header -->
+    @@include('../common/header.html')
+    <!-- end: header -->
+    <!--start: 项目 top name  -->
+    @@include('../common/xiangmuName.html')
+    <!--end: 项目 top name  -->
+    <!-- start: 品牌-网页点评  -->
+    <div class="REMARKON">
+        <div class="remarkonWrap">
+            <div class="remarkonL">
+
+                <div class="CommonWrap">
+                    <h3 class="CommonBtH3">项目介绍</h3>
+                    <a href="#" class="CommonBtA">查看跟多项目资料&gt;</a>
+
+                </div>
+                <div class="remarkonL_a">
+                    <div class="dp">
+                        <div class="htdp">
+                            <div class="xxdps">
+                                <p>综合评价分</p>
+                                <span data="3" id="xxdps">
+                                    <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                    <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                    <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                    <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                    <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                </span>
+                            </div>
+                            <ul id="jsHt">
+                                <li data="20"><span>特别好:</span>
+                                    <div><i></i></div><em>20%</em></li>
+                                <li data="30"><span>很好:</span>
+                                    <div><i></i></div><em>20%</em></li>
+                                <li data="20"><span>比较好:</span>
+                                    <div><i></i></div><em>20%</em></li>
+                                <li data="20"><span>一般:</span>
+                                    <div><i></i></div><em>20%</em></li>
+                                <li data="0"><span>不好:</span>
+                                    <div><i></i></div><em>20%</em></li>
+                            </ul>
+                        </div>
+                        <div class="xxdp">
+                            <div class="wydp">
+                                <p>我要点评</p>
+                                <span>您在</span><select>
+                                      <option value ="volvo">沟通咨询</option>
+                                      <option value ="saab">沟通咨询</option>
+                                      <option value="opel">沟通咨询</option>
+                                      <option value="audi">沟通咨询</option>
+                                    </select>
+                                <span>后感觉：<em>廖排骨</em></span>
+                                <div id="clickXx">
+                                    <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                    <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                    <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                    <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                    <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                    <span>很好</span>
+                                </div>
+                                <div class="wydp_bottom">
+                                    <textarea class="input" id="saytext" name="saytext"></textarea>
+
+                                    <div class="btnOn">
+                                        <p class="emotion"><img src="../../public/images/1.gif"><span>表情</span></p>
+                                        <div class="btnc">
+                                            <span>还能输入300个字符</span>
+                                            <a href="javascript:;">发布</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="wdlist">
+                        <ul>
+                            <li>
+                                <div class="imgLeft"><img src="http://attachment.jmw.com.cn/uploadfile/2018/0402/20180402054828900.jpg"></div>
+                                <div class="pjRight">
+                                    <p class="name">
+                                        <span>意向加盟者</span>
+                                        <span>2018年08月04日</span>
+                                        <span>沟通后咨询廖排骨后感觉：特别好</span>
+                                        <span class="wdList__XX" data="4">
+                                            <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                            <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                            <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                            <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                            <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                        </span>
+                                    </p>
+                                    <p class="news">
+                                        这个项目不错
+                                    </p>
+                                    <p class="btn">
+                                        <a href="#">支持(0)</a><span>|</span><a href="#">反对(0)</a>
+                                    </p>
+                                </div>
+                            </li>
+                            @@for(var i=0 ;i
+                            <6;i++ ){<li>
+                                <div class="imgLeft"><img src="http://attachment.jmw.com.cn/uploadfile/2018/0402/20180402054828900.jpg"></div>
+                                <div class="pjRight">
+                                    <p class="name">
+                                        <span>意向加盟者</span>
+                                        <span>2018年08月04日</span>
+                                        <span>沟通后咨询廖排骨后感觉：特别好</span>
+                                        <span class="wdList__XX" data="4">
+                                            <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                            <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                            <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                            <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                            <i style=" background-image: url(../../public/images/xxdp2.png)"></i>
+                                        </span>
+                                    </p>
+                                    <p class="news">
+                                        这个项目不错
+                                    </p>
+                                    <p class="btn">
+                                        <a href="#">支持(0)</a><span>|</span><a href="#">反对(0)</a>
+                                    </p>
+                                </div>
+                                </li>
+                                }
+
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- start:留言板-->
+                @@include('../common/message.html')
+                <!-- end: 留言板-->
+            </div>
+            @@include('../common/rightDynamic.html')
+
+        </div>
+    </div>
+    <!-- end: 品牌-项目介绍  -->
+    <!-- start : footer -->
+    @@include('../common/footer.html')
+    <!-- end:footer -->
+    <script src="../../public/js/jquery.qqFace.js"></script>
+    <script>
+        $(function() {
+
+            $('.emotion').qqFace({
+
+                id: 'facebox',
+
+                assign: 'saytext',
+
+                path: '../../public/images/qq/' //表情存放的路径
+
+            });
+
+            $(".sub_btn").click(function() {
+
+                var str = $("#saytext").val();
+
+                $("#show").html(replace_em(str));
+
+            });
+
+        });
+
+    </script>
+    <script>
+        $('#jsHt li').each(function(index) {
+            $(this).find('i')[0].style.width = $(this).find('em').html();
+        })
+        $('#xxdps i').each(function(index) {
+            if (index <= ($('#xxdps').attr('data') - 1)) {
+                $(this).css('background-image', 'url(../../public/images/xxdp.png)');
+                return;
+            }
+
+        })
+        $('.wdList__XX').each(function() {
+            $(this).find('i').each(function(index) {
+                if (index <= ($('.wdList__XX').attr('data') - 1)) {
+                    $(this).css('background-image', 'url(../../public/images/xxdp.png)');
+                    return;
+                }
+            })
+        })
+        $('#clickXx i').each(function(index) {
+
+            $(this).click(function() {
+                var pj = ['不好', '一般', '比较好', '很好', '特别好']
+                $('#clickXx span').html(pj[index])
+
+                $('#clickXx i').each(function(i) {
+                    $(this).css('background-image', 'url(../../public/images/xxdp2.png)');
+
+                    if (i <= index) {
+                        $(this).css('background-image', 'url(../../public/images/xxdp.png)');
+
+                        return;
+                    }
+
+                })
+            })
+        })
+
+        function textareaOn(val) {
+            $('#srtextarea div').html($(val).val())
+            console.log($(val).val())
+        }
+
+    </script>
+    <script>
+
+
+    </script>
+</body>
+
+</html>

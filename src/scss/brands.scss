@@ -1,0 +1,1555 @@
+@mixin clear () {
+    &:after {
+        content: ".";
+        /*加一段内容*/
+        display: block;
+        /*让生成的元素以块级元素显示，占满剩余空间*/
+        height: 0;
+        /*避免生成的内容破坏原有布局高度*/
+        clear: both;
+        /*清除浮动*/
+        visibility: hidden;
+        /*让生成的内容不可见*/
+        overflow: hidden;
+    }
+    zoom:1;
+}
+
+.GGYEADD {
+    .Top_GGYEADD {
+        .zongIcon {
+            display: inline-block;
+            overflow: hidden;
+            background: url(../images/zongIcon.png) no-repeat;
+        }
+        .fl1 {
+            float: left;
+            display: inline;
+        }
+        height: 170px;
+        .dl1 dt {
+            width: 133px;
+            height: 106px;
+            border: 2px solid #e9e9e9;
+            background: #fff;
+            position: relative;
+            margin-top: 30px;
+            float: left;
+            a {
+                display: block;
+                width: 113px;
+                height: 87px;
+                overflow: hidden;
+                margin: 10px;
+            }
+            p {
+                width: 137px;
+                height: 6px;
+                background: url(../images/yiny_26.png) no-repeat;
+                line-height: 6px;
+                position: absolute;
+                bottom: -8px;
+                left: 0;
+            }
+        }
+        .dl1 dd {
+            width: 1040px;
+            float: right;
+            .title {
+                height: 40px;
+                line-height: 40px;
+                margin-top: 30px;
+                a {
+                    font-size: 24px;
+                    color: #404040;
+                }
+                .i1 {
+                    width: 84px;
+                    height: 31px;
+                    background-position: 0 0;
+                    margin: 5px 9px 0 30px;
+                }
+                .rz {
+                    display: inline-block;
+                    height: 17px;
+                    line-height: 17px;
+                    border: 1px solid #c93b43;
+                    color: #dc3b44;
+                    font-size: 13px;
+                    border-radius: 2px;
+                    overflow: hidden;
+                    margin-top: 12px;
+                    .i2 {
+                        width: 18px;
+                        height: 17px;
+                        background-position: 0 -35px;
+                    }
+                }
+            }
+            .bread {
+                height: 28px;
+                line-height: 28px;
+                color: #b2b2b2;
+                font-size: 13px;
+                a {
+                    color: #b2b2b2;
+                }
+            }
+            ul {
+                height: 26px;
+                margin-top: 14px;
+                color: #858e9e;
+                font-size: 14px;
+                li {
+                    border: 1px solid #c8cace;
+                    border-radius: 3px;
+                    padding: 0 15px;
+                    height: 24px;
+                    line-height: 24px;
+                    margin-right: 18px;
+                    a{
+                            color: #858e9e;
+                    }
+                    .i3_0 {
+                        width: 16px;
+                        height: 15px;
+                        background-position: 0 -66px;
+                        margin: 4px 6px 0 0;
+                    }
+                    .i3_1 {
+                        width: 14px;
+                        height: 15px;
+                        background-position: -33px -66px;
+                        margin: 4px 6px 0 0;
+                    }
+                    .i3_2 {
+                        width: 18px;
+                        height: 18px;
+                        background-position: -69px -65px;
+                        margin: 3px 6px 0 0;
+                    }
+                    .i3_3 {
+                        width: 17px;
+                        height: 14px;
+                        background-position: -106px -66px;
+                        margin: 5px 6px 0 0;
+                    }
+                    .i3_4 {
+                        width: 13px;
+                        height: 15px;
+                        background-position: -141px -66px;
+                        margin: 5px 4px 0 0;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .GGYEADDRight {
+        .fl1 {
+            float: left;
+        }
+        .zongIcon {
+            display: inline-block;
+            overflow: hidden;
+            background: url(../images/zongIcon.png) no-repeat;
+        }
+        float: right;
+        width: 610px;
+        padding: 0 20px;
+        height: 280px;
+        border-top: 3px solid #f34a55;
+        background: #fff;
+        .GGYEADDR_item1 {
+            height: 89px;
+            border-bottom: 1px dashed #e1e1e1;
+            font-size: 14px;
+            overflow: hidden;
+            p {
+                float: left;
+                .fl1 {
+                    float: left;
+                    display: inline;
+                }
+            }
+            .p1 {
+                line-height: 89px;
+                color: #333;
+                margin-left: 5px;
+                .sp2 {
+                    font-size: 40px;
+                    color: #ec0027;
+                    line-height: 85px;
+                }
+            }
+            .p3 {
+                width: 1px;
+                height: 40px;
+                background: #b1b1b1;
+                margin: 25px 25px 0;
+            }
+            .p4 {
+                margin-top: 25px;
+                span {
+                    line-height: 20px;
+                    color: #666;
+                }
+            }
+
+        }
+        .GGYEADDR_item2 {
+
+            height: 89px;
+            border-bottom: 1px dashed #e1e1e1;
+            font-size: 14px;
+            overflow: hidden;
+            p {
+                height: 40px;
+                line-height: 40px;
+                font-size: 16px;
+                color: #666;
+                margin-top: 16px;
+                em {
+                    color: #404040;
+                    font-weight: bold;
+                }
+            }
+
+            .fl1 {
+                float: left;
+
+                .i4_1 {
+                    width: 40px;
+                    height: 40px;
+                    background-position: -174px -66px;
+                    margin: 0px 10px 0 5px;
+                }
+
+            }
+            .fr1 {
+                float: right;
+                display: inline;
+            }
+            .allright {
+                display: block;
+                width: 106px;
+                height: 36px;
+                line-height: 36px;
+                background: #f75252;
+                border-radius: 4px;
+                overflow: hidden;
+                font-size: 13px;
+                color: #fff;
+                margin: 18px 20px 0 0;
+                box-shadow: 0px 12px 20px -14px #f75252;
+                .i5_1 {
+                    width: 17px;
+                    height: 17px;
+                    background-position: -240px -66px;
+                    margin: 10px 7px 0 15px;
+                }
+            }
+        }
+        .GGYEADDR_item3 {
+            overflow: hidden;
+            dt {
+                width: 72px;
+                color: #333;
+                margin-top: 8px;
+                margin-left: 5px;
+            }
+            dd {
+                width: 530px;
+                p {
+                    float: left;
+                    background: url(../images/dui_53.png) left center no-repeat;
+                    width: 112px;
+                    height: 28px;
+                    line-height: 28px;
+                    padding-left: 20px;
+                    color: #666;
+                }
+            }
+
+        }
+        .GGYEADDR_item4 {
+            height: 60px;
+            background: #f1f1f1;
+            .cn_logo {
+                width: 116px;
+                height: 43px;
+                margin: 10px 15px 0 25px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .p2 {
+                font-size: 12px;
+                color: #444;
+                line-height: 60px;
+            }
+            .look {
+                display: block;
+                width: 127px;
+                height: 26px;
+                line-height: 26px;
+                background: #ff9000 url(../images/look.png) no-repeat 8px 6px;
+                font-size: 12px;
+                color: #fff;
+                margin: 18px 26px 0 0;
+                border-radius: 2px;
+                text-indent: 26px;
+            }
+            .fr1 {
+                float: right;
+            }
+        }
+        .GGYEADDR_item5 {
+            height: 40px;
+            line-height: 40px;
+            background: #494949;
+            margin-top: 6px;
+            overflow: hidden;
+            li {
+                float: left;
+                font-size: 14px;
+                width: 196px;
+                height: 40px;
+                line-height: 40px;
+                border-right: 1px solid #696969;
+                color: #cecece;
+                .i10 {
+                    width: 18px;
+                    height: 18px;
+                    background-position: -283px -66px;
+                    margin: 12px 10px 0 57px;
+                }
+                .i11 {
+                    width: 16px;
+                    height: 18px;
+                    background-position: -319px -66px;
+                    margin: 12px 10px 0 57px;
+                }
+                .i12 {
+                    width: 20px;
+                    height: 22px;
+                    background-position: -350px -66px;
+                    margin: 10px 10px 0 57px;
+                }
+                span {
+                    float: left;
+                    em {
+                        font-size: 15px;
+                        color: #efefef;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.BRANDS {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .LbWrap {
+        overflow: hidden;
+
+
+        .brandsLeft {
+            width: 520px;
+            float: left;
+            overflow: hidden;
+            position: relative;
+            .slidetop {
+                width: 520px;
+                height: 320px;
+
+                .navPrev,
+                .navNext {
+                    position: absolute;
+                    width: 25px;
+                    height: 50px;
+                    margin-bottom: 20px;
+                    bottom: 0;
+                    z-index: 9999;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .navPrev {
+                    left: 0;
+                }
+                .navNext {
+                    right: 0;
+                }
+
+                li {
+                    vertical-align: top;
+                    img {
+                        width: 520px;
+                        height: 320px;
+                    }
+                }
+            }
+            .slideBottom {
+                width: 520px;
+                height: 94px;
+                position: relative;
+                margin-top: 20px;
+                .navPrev,
+                .navNext {
+                    position: absolute;
+                    width: 25px;
+                    height: 50px;
+                    top: 50%;
+                    margin-top: -25px;
+                }
+                .navPrev {
+                    left: 0;
+                }
+                .navNext {
+                    right: 0;
+                }
+                .picList {
+                    width: 200%;
+                }
+                .picList .on div {
+                    opacity: 0;
+                    filter: alpha(opacity=0);
+                }
+                li {
+                    float: left;
+                    width: 124px;
+                    height: 94px;
+                    margin-right: 9px;
+
+                    a {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                        div {
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            background: #fff;
+                            -moz-opacity: 0.6;
+                            -khtml-opacity: 0.6;
+                            opacity: 0.6;
+                            filter: alpha(opacity=60);
+
+                        }
+                        img {
+                            width: 120px;
+                            height: 94px;
+                        }
+                    }
+                }
+
+
+            }
+        }
+        .brandsRight {
+            float: right;
+            width: 620px;
+            .wrap {
+                background: #f5f5f6;
+            }
+            > h2 {
+                font-size: 26px;
+                line-height: 36px;
+                letter-spacing: 5px;
+                font-weight: 400;
+            }
+            .brandsR_Box {
+                width: 620px;
+                .brandsR_top {
+                    height: 92px;
+                    background: #f5f5f6;
+                    margin-top: 20px;
+                    > div {
+                        width: (620px/3-4);
+                        float: left;
+                        height: 60px;
+                        margin: 16px 0;
+                        text-align: center;
+                        font-size: 18px;
+                        line-height: 30px;
+                        p {
+                            font-weight: 500;
+
+                        }
+
+                        &:nth-child(2) {
+                            border-left: 2px solid #ccc;
+                            border-right: 2px solid #ccc;
+                        }
+
+                    }
+
+                }
+
+                .brandsR_middle {
+                    background: #fff;
+                    width: 580px;
+                    margin: 0 auto;
+                    @include clear;
+                    overflow: hidden;
+                    padding: 13px;
+
+                    ul li {
+                        height: 28px;
+                        line-height: 28px;
+                        float: left;
+                        img {
+                            float: left;
+                            width: 16px;
+                            height: 16px;
+                            margin-top: 7px;
+                        }
+                        span {
+                            float: left;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .brandsR_bottom {
+                    width: 585px;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    padding: 15px 0;
+                    .brandsR_img {
+                        float: left;
+                        width: 40px;
+                        height: 47px;
+                    }
+                    .nameGs {
+                        float: left;
+                        margin-left: 10px;
+                        line-height: 23px;
+                        p {
+                            font-size: 14px;
+                            font-weight: 600;
+                        }
+                    }
+                    .dananxx {
+                        width: 170px;
+                        height: 46px;
+                        border: 1px solid #ccc;
+                        float: right;
+                        background: #fff;
+                        img {
+                            width: 20px;
+                            height: 20px;
+                            margin: 12px 10px;
+                            float: left;
+                        }
+                        span {
+                            float: left;
+                            line-height: 44px;
+                            color: #000;
+                            font-size: 14px;
+                        }
+                    }
+
+                }
+
+                .brandsR_btnCx {
+                    padding: 22px 0;
+                    @include clear;
+                    overflow: hidden;
+                    .mfTel {
+                        float: left;
+                        height: 54px;
+                        width: 408px;
+                        border: 1px solid #e60026;
+                        border-radius: 5px;
+                        background: #fff2f2;
+                        line-height: 54px;
+                        a {
+                            color: #e60026;
+                        }
+                        a > img {
+                            width: 29px;
+                            height: 26px;
+                            float: left;
+                            margin: 14px 10px 0 35px;
+
+                        }
+                        p {
+                            float: left;
+                            font-size: 16px;
+                        }
+                        div {
+                            width: 48px;
+                            height: 33px;
+                            float: right;
+                            margin-top: 18px;
+                            margin-right: 36px;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                    .ljzx {
+                        width: 190px;
+                        height: 56px;
+                        border-radius: 5px;
+                        background: #fe543e;
+                        float: right;
+                        line-height: 56px;
+                        font-size: 18px;
+
+                        a {
+                            color: #fff;
+                        }
+                        img {
+                            width: 27px;
+                            height: 23px;
+                            float: left;
+                            margin-top: 18px;
+                            margin-left: 40px;
+                            margin-right: 10px;
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+    }
+    .brandsName {
+        overflow: hidden;
+        .brandsNameL {
+            width: 870px;
+            border: 1px solid #e6e7eb;
+            float: left;
+            > h2 {
+                text-align: center;
+                font-weight: 400;
+                line-height: 70px;
+                font-size: 24px;
+                img {
+                    display: inline-block;
+                    margin: 0 5px;
+                    width: 26px;
+                    height: 26px;
+
+                }
+            }
+            .brandsNameLList {
+                width: 792px;
+                margin: 0 auto;
+                overflow: hidden;
+                ul {
+                    overflow: hidden;
+                    border-top: 1px solid #dcdcdc;
+                    padding-top: 10px;
+                }
+                ul li {
+                    width: (792px/2);
+                    float: left;
+                    overflow: hidden;
+                    font-size: 14px;
+                    border-bottom: dashed 1px #dcdcdc;
+
+                    span {
+                        display: block;
+                        line-height: 43px;
+                        width: 140px;
+                        background: #f9f9f9;
+                        color: #a59999;
+                        text-indent: 2em;
+                        float: left;
+                        height: 100%;
+
+
+                    }
+                    em {
+                        line-height: 43px;
+                        float: left;
+                        padding-left: 10px;
+                        display: block;
+                        width: 246px;
+                        word-wrap: break-word;
+                    }
+                }
+            }
+            .brandsXmjs {
+                border-top: 15px solid #e6e7eb;
+                margin-top: 26px;
+                overflow: hidden;
+                .brandsXmjsBt {
+                    > a {
+                        line-height: 25px;
+                        float: right;
+                        margin: 20px;
+                        color: #a5abb2;
+                    }
+                }
+                .brandsArt {
+                    width: 744px;
+                    padding: 0 20px;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    color: #333333;
+                    letter-spacing: 2px;
+
+                    p {
+                        font-size: 14px;
+                        color: #333333;
+                    }
+                    img {
+                        width: 80%;
+                        margin: 0 auto;
+                    }
+                    .jiazaGenDuo {
+                        text-align: center;
+                        line-height: 50px;
+                        a {
+                            text-align: center;
+                            color: #adabb2;
+                            font-size: 14px;
+                        }
+                    }
+                    .listAbq {
+                        a {
+                            float: left;
+                            display: block;
+                            line-height: 22px;
+                            height: 20px;
+                            color: #68727d;
+                            border-radius: 12px;
+                            border: 1px solid #68727d;
+                            padding: 0 10px;
+                            margin: 20px 0;
+                        }
+                    }
+                }
+
+            }
+
+            .brandsJmzl {
+                overflow: hidden;
+                .bt {
+                    overflow: hidden;
+                    p {
+                        float: left;
+                        font-size: 20px;
+                        margin: 16px;
+                        color: #999999;
+                        cursor: pointer;
+                    }
+                }
+                
+                .jiamengzix {
+                    width: 780px;
+                    border-top: 1px solid #ccc;
+                    margin: 0 auto;
+                    h4 {
+                        font-size: 20px;
+                        color: #394043;
+                        line-height: 89px;
+                        font-weight: 400;
+                    }
+                    > div.btn {
+                        text-align: center;
+                        a {
+                            color: #ccc
+                        }
+                        ;
+                        line-height: 50px;
+                    }
+                    .jiamengzixWrap {
+                        overflow: hidden;
+                        padding-bottom: 40px;
+                        border-bottom: 1px solid #ccc;
+                        img {
+                            width: 240px;
+                            height: 140px;
+                            float: left;
+                        }
+                        div {
+                            float: right;
+                            width: 502px;
+                            p {
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                display: -webkit-box;
+                                -webkit-line-clamp: 3;
+                                -webkit-box-orient: vertical;
+                                line-height: 26px;
+                                font-size: 14px;
+                            }
+                            span {
+                                margin-top: 36px;
+                                line-height: 28px;
+                                display: block;
+                                float: left;
+                                height: 28px;
+                                float: right;
+                                color: #828b92;
+                                margin-left: 20px;
+                                img {
+                                    margin-top: 6px;
+                                    width: 15px;
+                                    height: 15px;
+                                    display: inline-block;
+                                    margin-right: 10px;
+                                    margin-left: 10px;
+                                }
+                            }
+                            .a {
+                                margin-right: 50px;
+                                float: left;
+                                margin-left: 0;
+                                img {
+                                    width: 27px;
+                                    height: 27px;
+                                    float: left;
+                                    margin-top: 0;
+
+
+                                }
+                            }
+
+
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+
+}
+
+.REMARKON {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    .remarkonBt {
+        overflow: hidden;
+    }
+    .CommonWrap {
+        border-bottom: 1px solid #ddd;
+    }
+    .remarkonL {
+        width: 870px;
+        float: left;
+        overflow: hidden;
+        border: 1px solid #ddd;
+    }
+    .remarkonL_a {
+        width: 670px;
+        margin-left: 44px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        .dp {
+            width: 668px;
+            border: 1px dashed #ddd;
+            padding: 20px 0;
+            overflow: hidden;
+            .htdp {
+                width: 272px;
+                border-right: 1px solid #ddd;
+                float: left;
+                .xxdps {
+                    margin-left: 20px;
+                    span {
+                        overflow: hidden;
+                        display: block;
+                        i {
+                            display: block;
+                            width: 17px;
+                            height: 17px;
+                            float: left;
+                            background-repeat: no-repeat;
+                            background-size: 100%;
+
+                        }
+                    }
+                }
+                ul li {
+                    overflow: hidden;
+                    line-height: 18px;
+                    height: 18px;
+                    margin: 12px 0;
+                    span {
+                        display: block;
+                        width: 48px;
+                        float: left;
+                        text-align: right;
+                    }
+                    em {
+                        color: #999;
+                        font-size: 12px;
+                    }
+                    div {
+                        width: 140px;
+                        height: 18px;
+                        background: #eeeeee;
+                        float: left;
+                        margin-left: 10px;
+                        margin-right: 5px;
+                        i {
+                            display: block;
+                            height: 18px;
+                            float: left;
+                            background: #ff7700;
+                        }
+
+                    }
+                }
+            }
+            .xxdp {
+                float: right;
+                width: 368px;
+                .wydp {
+                    overflow: hidden;
+                    p {
+                        font-size: 14px;
+                        color: #000;
+                    }
+                    span,
+                    select {
+                        float: left;
+                        font-size: 12px;
+                        color: #b0b0b0;
+                        line-height: 26px;
+                    }
+                    select {
+                        width: 120px;
+                        height: 24px;
+                        border: 1px solid #b0b0b0;
+                        outline: none;
+                        margin: 0 8px;
+                    }
+                    em {
+                        color: #e43c01;
+                    }
+                    #clickXx {
+                        width: 100%;
+                        overflow: hidden;
+                        i {
+                            display: block;
+                            width: 17px;
+                            height: 17px;
+                            float: left;
+                            background-repeat: no-repeat;
+                            background-size: 100%;
+                            margin-top: 5px;
+                        }
+                        span {
+                            color: #000;
+                            margin-left: 10px;
+                        }
+                    }
+                    .wydp_bottom {
+                        .input {
+                            width: 278px;
+                            height: 62px;
+                            border: 1px solid #ddd;
+                            outline: none;
+                            padding: 10px;
+                            span {
+                                padding: 0;
+                                margin: 0;
+                                color: #bfbfbf;
+                            }
+
+                        }
+                        .btnOn {
+                            margin-top: 5px;
+                            #facebox {
+                                background: #fff;
+                                padding: 5px;
+                                border: 1px solid #ddd;
+                            }
+                            p {
+                                float: left;
+                                img,
+                                span {
+                                    float: left;
+                                    margin-left: 5px;
+                                }
+                            }
+                            .btnc {
+                                float: right;
+                                margin-right: 50px;
+                                span {
+                                    float: left;
+                                    margin-right: 20px;
+                                    line-height: 30px;
+                                }
+                                a {
+                                    display: block;
+                                    width: 100px;
+                                    height: 30px;
+                                    background: #e43c01;
+                                    font-size: 14px;
+                                    color: #fff;
+                                    float: left;
+                                    line-height: 30px;
+                                    text-align: center;
+                                    border-radius: 2px;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+        .wdlist {
+            width: 670px;
+            overflow: hidden;
+            ul li {
+                border-bottom: 1px dashed #ddd;
+                padding: 20px 0;
+                overflow: hidden;
+                .imgLeft {
+                    width: 69px;
+                    height: 69px;
+                    padding: 4px;
+                    border: 1px solid #ddd;
+                    float: left;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pjRight {
+                    width: 590px;
+                    float: left;
+                    .name {
+                        line-height: 29px;
+                        overflow: hidden;
+                        span {
+                            margin: 0 10px;
+                            float: left;
+                            i {
+                                display: block;
+                                width: 17px;
+                                height: 17px;
+                                float: left;
+                                background-repeat: no-repeat;
+                                background-size: 100%;
+                                margin-top: 5px;
+                            }
+
+                        }
+                    }
+                    .news {
+                        margin-left: 10px;
+                        line-height: 26px;
+                        border-bottom: 1px dashed #ddd;
+                    }
+                    .btn {
+                        a {
+                            margin: 0 10px;
+                            color: #444444;
+                        }
+
+                    }
+                }
+
+
+            }
+
+
+        }
+
+    }
+}
+
+
+
+.BRANDSNEWS {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    .newsLeft {
+        overflow: hidden;
+        float: left;
+    }
+    .newsList {
+        width: 786px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-top: 1px solid #ddd;
+        a {
+            color: #000;
+        }
+
+        ul {
+            li {
+                overflow: hidden;
+                padding-bottom: 26px;
+                padding-top: 26px;
+                border-bottom: 1px solid #ddd;
+                .newsListImg {
+                    width: 220px;
+                    height: 144px;
+                    float: left;
+                    img {
+                        width: 220px;
+                        height: 144px;
+                    }
+                }
+                .newsListRight {
+                    width: 534px;
+                    a {
+                        color: #000;
+                    }
+                    h3 {
+                        font-size: 20px;
+                        line-height: 30px;
+                        margin-bottom: 20px;
+                    }
+                    float: right;
+
+                    div {
+
+                        margin-bottom: 20px;
+                        line-height: 16px;
+                        color: #ddd;
+                        span {
+                            img {
+                                width: 16px;
+                                height: 16px;
+                                float: left;
+                                margin-right: 8px;
+                            }
+                        }
+                        em,
+                        i {
+                            float: right;
+                            margin-left: 20px;
+                            img {
+                                float: left;
+                                margin-right: 8;
+                            }
+                        }
+                    }
+                    p {
+                        line-height: 24px;
+                        color: #999999;
+                        overflow: hidden;
+
+                        text-overflow: ellipsis;
+
+                        display: -webkit-box;
+
+                        -webkit-box-orient: vertical;
+
+                        -webkit-line-clamp: 2;
+                    }
+
+                }
+            }
+
+
+
+
+
+
+
+        }
+    }
+
+}
+
+.ISSUE {
+    .issueLeft {
+        overflow: hidden;
+        float: left;
+        .wdwrap {
+            width: 780px;
+            margin: 0 auto;
+            border-top: 1px solid #ddd;
+            padding: 26px 0;
+            p {
+                margin: 7px 0;
+                span {
+                    display: block;
+                    width: 18px;
+                    height: 18px;
+                    font-size: 14px;
+                    float: left;
+                    background: #fd8910;
+                    color: #fff;
+                    text-align: center;
+                    border-radius: 2px;
+                    margin-right: 5px;
+                }
+                line-height: 18px;
+                font-size: 14px;
+                color: #000;
+
+            }
+            div {
+                color: 3888888;
+                a {
+                    margin: 0 4px;
+                    color: #225588;
+                }
+            }
+        }
+        .issueShow {
+            width: 780px;
+            margin: 0 auto;
+            .issueShowBtn {
+                width: 780px;
+                text-align: center;
+                line-height: 48px;
+                height: 48px;
+                overflow: hidden;
+                margin-bottom: 26px;
+                a {
+                    width: 106px;
+                    display: block;
+                    float: left;
+                    height: 48px;
+                    background: #67acff;
+                    border-radius: 0 5px 5px 0;
+                    font-size: 18px;
+                    color: #fff;
+                }
+                input {
+                    width: 650px;
+                    float: left;
+                    border: 1px solid #eaeaea;
+                    border-right: none;
+                    outline: none;
+                    height: 46px;
+                    line-height: 46px;
+                    padding: 0 10px;
+
+                    border-radius: 5px 0 0 5px;
+                }
+
+            }
+
+            ul {
+                li {
+                    overflow: hidden;
+                    line-height: 50px;
+                    height: 50px;
+                    border-bottom: dashed #e0e0e0 1px;
+                    span {
+                        display: block;
+                        width: 16px;
+                        height: 16px;
+                        line-height: 16px;
+                        font-size: 12px;
+                        border: 1px solid #2d64b6;
+                        color: #2d64b6;
+                        border-radius: 2px;
+                        text-align: center;
+                        float: left;
+                        margin-top: 17px;
+                        margin-right: 10px;
+                    }
+                    p {
+                        float: left;
+                        font-size: 14px;
+                        width: 580px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        color: #000;
+
+                    }
+                    div {
+                        float: right;
+                        width: 128px;
+                        em {
+                            float: left;
+                            color: #000;
+                        }
+                        i {
+                            float: right;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@import 'base/images.scss';
+@import 'base/praise.scss';
+@import 'base/contact.scss';
+.xixu_add {
+    width: 1200px;
+    margin: 0 auto;
+    .xixu_add_top {
+        border-bottom: 2px solid #333;
+        overflow: hidden;
+        margin-top: 12px;
+        h3 {
+            float: left;
+            font-size: 18px;
+            line-height: 50px;
+
+            span {
+                color: red;
+            }
+        }
+        .nav {
+            float: right;
+            line-height: 50px;
+            a {
+                float: left;
+                padding: 0 16px;
+                color: #858e9e;
+                font-size: 12px;
+            }
+            span {
+                float: left;
+            }
+            img {
+                width: 99px;
+                height: 36px;
+                display: inline-block;
+            }
+        }
+
+    }
+    .xixu_add_list {
+        overflow: hidden;
+        ul {
+            li {
+                &:after {
+                    content: ".";
+                    /*加一段内容*/
+                    display: block;
+                    /*让生成的元素以块级元素显示，占满剩余空间*/
+                    height: 0;
+                    /*避免生成的内容破坏原有布局高度*/
+                    clear: both;
+                    /*清除浮动*/
+                    visibility: hidden;
+                    /*让生成的内容不可见*/
+                    overflow: hidden;
+                }
+                zoom:1;
+                padding-top: 30px;
+                .left {
+                    float: left;
+                    text-align: center;
+                    width: 100px;
+                    img {
+                        width: 52px;
+                        height: 52px;
+                        border-radius: 50%;
+                        margin: 0 auto;
+                    }
+                    p {
+                        line-height: 44px;
+                    }
+                }
+                .right {
+                    width: 1080px;
+                    margin: 0 auto;
+                    float: left;
+                    .top {
+                        line-height: 34px;
+                        color: #b5b5b5;
+                        &:after {
+                            content: ".";
+                            /*加一段内容*/
+                            display: block;
+                            /*让生成的元素以块级元素显示，占满剩余空间*/
+                            height: 0;
+                            /*避免生成的内容破坏原有布局高度*/
+                            clear: both;
+                            /*清除浮动*/
+                            visibility: hidden;
+                            /*让生成的内容不可见*/
+                            overflow: hidden;
+                        }
+                        zoom:1;
+                        p {
+                            float: left;
+                        }
+                        em {
+                            float: right;
+                            img {
+                                display: inline-block;
+                            }
+                        }
+                    }
+                    .showWd {
+                        border: 1px #e3e3e3 solid;
+                        border-radius: 5px;
+                        padding: 12px;
+                        div {
+                            line-height: 26px;
+                        }
+                        p {
+                            background: #f4f4f4;
+                            padding: 12px;
+                            line-height: 20px;
+                            font-size: 12px;
+                            color: #858e9e;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.ADD_bottom {
+
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    .ADD_bottom_list {
+        padding: 0 10px;
+        width: 580px;
+        float: left;
+        overflow: hidden;
+        .ADD_bottom_item1 {
+            line-height: 72px;
+            font-size: 24px;
+
+        }
+        .ADD_bottom_item2 {
+            overflow: hidden;
+            .ADD_bottom_item2_wrap {
+                width: 200px;
+                height: 130px;
+                float: left;
+                img {
+                    width: 200px;
+                    height: 130px;
+                }
+            }
+            .ADD_bottom_item2_right {
+                width: 356px;
+                float: right;
+                .H3 {
+                    font-size: 22px;
+
+                    img {
+
+                        display: inline;
+                    }
+
+                }
+                .SJ {
+                    line-height: 30px;
+                    color: #bbbbbb;
+                    overflow: hidden;
+                    .SJ_LEFT {
+                        float: left;
+                        img {
+                            float: left;
+                            margin-right: 10px;
+                            width: 16px;
+                            height: 16px;
+                            margin-top: 7px;
+
+                        }
+                    }
+                    .SJ_RIGHT {
+                        float: right;
+                        img {
+                            float: left;
+                            margin-right: 10px;
+                            width: 16px;
+                            height: 16px;
+                            margin-top: 7px;
+                            margin-left: 10px;
+                        }
+                        span {
+                            float: left;
+                        }
+                    }
+                }
+                .JS_l {
+                    line-height: 30px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    color: #999999;
+                }
+            }
+        }
+        .ADD_bottom_item3 {
+            margin-top: 20px;
+            border-top: 1px dashed #e0e0e0;
+            padding-top: 10px;
+            .ADD_BTN {
+                font-size: 12px;
+                color: #a5abb2;
+                line-height: 46px;
+                float: right;
+            }
+            ul {
+                li {
+                    line-height: 40px;
+                    height: 40px;
+                    overflow: hidden;
+                    font-size: 16px;
+                    div {
+                        width: 18px;
+                        height: 18px;
+                        border: 1px solid #6bbd45;
+                        color: #6bbd45;
+                        float: left;
+                        line-height: 18px;
+                        font-size: 12px;
+                        text-align: center;
+                        margin-right: 5px;
+                        margin-top: 10px;
+                    }
+                    i {
+                        display: block;
+                        width: 12px;
+                        background: url(../images/dian_81.png) no-repeat 0;
+                        float: left;
+                        height: 100%;
+                    }
+                    a {
+                        color: #000;
+                    }
+                    em {
+                        display: block;
+                        width: 400px;
+
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        float: left;
+                    }
+                    span {
+                        float: right;
+                        font-size: 12px;
+                        color: #ddd;
+                        width: 130px;
+                    }
+                }
+            }
+        }
+    }
+
+}

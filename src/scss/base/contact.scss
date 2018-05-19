@@ -1,0 +1,135 @@
+.CONTACT {
+    overflow: hidden;
+    .contactLeft {
+        float: left;
+        .contactList {
+            width: 782px;
+            margin:  0 auto;
+            border-top: 1px solid #ddd; 
+            div {
+                p {
+                    line-height: 24px;
+                    margin: 10px 0; 
+                }
+            }
+            table {
+                td,th {
+                    line-height: 42px;
+                    border: 0;
+                    border-bottom: 1px solid #ddd;
+                    padding: 0;
+                    margin: 0;
+                }
+                tr {
+                    border-bottom: 1px dashed #ddd; 
+                    text-align: left;
+                }
+            }
+            .tbodyName {
+                width: 140px;
+                background: #f9f9f9;
+                text-indent: 2em;
+            }
+            .tbodyJs {
+                width: 264px;
+            }
+        } 
+    }
+}
+.COST {
+    .costLeft {
+        width: 870px;
+        border: 1px solid #ddd;
+        float: left;
+        .constWarp {
+            width: 830px;
+            margin: 0 auto;
+            h2 {
+                text-align: center;
+                line-height: 72px;
+                font-size: 22px;
+                border-bottom: 1px solid #ddd; 
+                img {
+                    display: inline-block;
+                    width: 26px;
+                    height: 26px;
+                    margin: 0 5px;
+                }
+                em {
+                    color: red;
+                    font-size: 34px;
+                }
+            }
+            ul {
+                overflow: hidden;
+                background: #f7f8f9;
+                li {
+                    overflow: hidden;
+                    line-height: 48PX;
+                    margin: 0 28px;
+                    border-bottom: 1px dashed #ddd; 
+                     color: #999999;
+                    img {
+                        width: 26px;
+                        height: 26px;
+                        float: left;
+                        margin-top: 12px; 
+                        margin-right:16px; 
+                    }
+                    span {
+                        float: left;
+                        font-size: 18PX;
+                       
+                    }
+                    em {
+                        float: right;
+                    }
+                }
+            }
+            .xqjs {
+                line-height: 60px;
+                color: #999;
+                font-size: 12px;
+                a {
+                    color: #999;
+                }
+            }
+            table {
+                 border-top: 1px dashed #ddd; 
+                tr {
+                    td {
+                        line-height: 43px;
+                        border-bottom: 1px dashed #ddd; 
+                        text-indent: 2em;
+                    }
+                    .jmname {
+                        width: 138px;
+                        background: #f9f9f9;
+                    }
+                    .jmzq {
+                        width: 270px;
+                    }
+                }
+            }
+            .jsxq {
+                margin:  20px 0;
+            p {
+                line-height: 26px;
+            }
+            }
+
+        }
+    }
+}
+.GUANGGAOSHOW {
+    width: 100%;
+    &:after{
+        content:".";/*加一段内容*/
+        display:block;/*让生成的元素以块级元素显示，占满剩余空间*/
+        height:0;/*避免生成的内容破坏原有布局高度*/
+        clear:both;/*清除浮动*/
+        visibility:hidden;/*让生成的内容不可见*/
+        overflow:hidden;
+    }
+    zoom:1;   
+}

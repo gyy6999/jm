@@ -1,0 +1,80 @@
+<div class="LIAOJIEGENDUO">
+    <div class="Bts"><h2 class="clickBtn on">了解更多</h2><h2 class="clickBtn">猜你喜欢</h2></div>
+    <div class="list">
+        <a href="#">项目介绍</a>
+        <a href="#">品牌图库</a>
+        <a href="#">加盟费用</a>
+        <a href="#">加盟优势</a>
+        <a href="#">资质核实</a>
+        <a href="#">网友点评</a>
+        <a href="#">成功案例</a>
+        <a href="#">创业论坛</a>
+        <a href="#">加盟问答</a>
+        <a href="#">品牌口碑</a>
+        <a href="#">官方网站</a>
+    </div>
+    <div class="list" style="display: none;">
+        <a href="#">项目介绍1</a>
+        <a href="#">品牌图库1</a>
+        <a href="#">加盟费用1</a>
+        <a href="#">加盟优势1</a>
+        <a href="#">资质核实1</a>
+        <a href="#">网友点评1</a>
+        <a href="#">成功案例1</a>
+        <a href="#">创业论坛1</a>
+        <a href="#">加盟问答1</a>
+        <a href="#">品牌口碑1</a>
+        <a href="#">官方网站1</a>
+    </div>
+</div>
+<script>
+    $('.LIAOJIEGENDUO .clickBtn').each(function(index){
+        $(this).click(function(){
+            $('.LIAOJIEGENDUO .list').hide();
+            $('.LIAOJIEGENDUO .clickBtn').removeClass('on');
+            $(this).addClass('on');
+            $('.LIAOJIEGENDUO .list').eq(index).show();
+        })
+    })
+</script>
+<div class="FOOTER">
+    <div class="footerwrap">
+        <div class="L">
+            <div class="tel">
+                <p class="ggtf"><img src="../../public/images/tf_icon.png" ><span>广告投放：400-000-000</span></p>
+                <p class="xmzx"><img src="../../public/images/tf_icon.png" >项目咨询：400-000-00</p>
+            </div>
+            <div class="nav">
+                <a href="#">关于我们</a>
+                <a href="#">产品服务</a>
+                <a href="#">产品优势</a>
+                <a href="#">合作客户</a>
+                <a href="#">联系我们</a>
+            </div>
+            <div class="bq">
+                <p>中国加盟网友情提示：多打电话、多咨询、实地考察，可降低投资风险</p>
+                <p>Copyright©2004-2018 JMW.COM.CN. All Rights Reserved 北京天创时代信息技术有限公司 版权所有</p>
+                <p><img src="../../public/images/icon.png">京ICP证：040787号京ICP备05067717号-5京公海网安备案编号:1101084667</p>
+            </div>
+        </div>
+        <div class="R">
+            <p>下载中国加盟网APP</p>
+            <dl>
+                <td><img src="http://search.jmw.com.cn/images/newproject/anzhuo.png"></td>
+                <dd>android版</dd>
+            </dl>
+            <dl>
+                <td>
+                    <img src="http://search.jmw.com.cn/images/newproject/anzhuo.png">
+                </td>
+                <dd>android版</dd>
+            </dl>
+            <dl>
+                <td>
+                    <img src="http://search.jmw.com.cn/images/newproject/anzhuo.png">
+                </td>
+                <dd>android版</dd>
+            </dl>
+        </div>
+    </div>
+</div>

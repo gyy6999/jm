@@ -1,0 +1,62 @@
+.MESSAGE .ziXu .jiamengkoubei {}
+
+.PRAISE,
+.MESSAGE .ziXu .jiamengkoubei {
+
+    .praiseLeft {
+        float: left;
+        overflow: hidden;
+    }
+    .praiseList {
+        width: 784px;
+        margin: 0 auto;
+        border-top: 1px solid #ddd;
+        ul {
+            overflow: hidden;
+            li {
+                overflow: hidden;
+                padding: 30px 0;
+                border-bottom: 1px dashed #ddd;
+                .praiseListL {
+                    overflow: hidden;
+                    float: left;
+                    margin: 0 10px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+
+                    }
+                }
+                .praiseListR {
+                    overflow: hidden;
+                    float: left;
+                    width: 692px;
+                    margin-left: 20px;
+                    .yhname {
+                        line-height: 28px;
+                        height: 28px;
+                        color: #3b5998;
+                        font-size: 12px;
+                        span {
+                            float: left;
+                        }
+                        em {
+                            float: right;
+                        }
+                    }
+                    .sjxs {
+                        line-height: 28px;
+                        color: #999;
+                        font-size: 12PX;
+                    }
+                    .pjshow {
+                        line-height: 20px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+}
